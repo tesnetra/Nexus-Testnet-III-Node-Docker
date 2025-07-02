@@ -19,45 +19,24 @@ This guide is tested and works perfectly in:
 
 ## 🚀 Step-by-Step Install Nexus Testnet III Node
 
-### 1. Create a Dockerfile
-
-Save a file called `Dockerfile` (without extension) in your project directory with the following content:
-
-```Dockerfile
-FROM ubuntu:24.04
-
-RUN apt-get update && \
-    apt-get install -y curl bash
-
-RUN curl -sSL https://cli.nexus.xyz/ | NONINTERACTIVE=1 sh
-
-ENTRYPOINT ["bash"]
-```
-
-### 2. Build the Docker Image
-
+### 1. Build the Docker Image
 ```bash
 docker build -t nexus-dev .
 ```
 
-### 3. Run the Container
-
+### 2. Run the Container
 ```bash
 docker run -it nexus-dev
 ```
-
 You will enter the Ubuntu shell with Nexus CLI installed.
 
-### 4. Verify Nexus CLI
-
+### 3. Verify Nexus CLI
 ```bash
 nexus-network --help
 ```
-
 If a list of commands appears, Nexus CLI is ready!
 
-### 5. Start the Node
-
+### 4. Start the Node
 ```bash
 nexus-network start --node-id <YOUR_NODE_ID>
 ```
@@ -68,29 +47,37 @@ Replace <YOUR_NODE_ID> with your node ID from https://app.nexus.xyz/nodes.
 If `nexus-network: command not found` appears:
 
 ### 1. Check installation path:
-
 ```bash
 ls ~/.nexus/bin/
 ```
+
 or
+
 ```bash
 ls /root/.nexus/bin/
 ```
+
 If `nexus-network` is found there, add to PATH:
 ```bash
 export PATH="/root/.nexus/bin:$PATH"
 ```
+
 Or make it permanent:
+
 ```bash
 echo 'export PATH="/root/.nexus/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
+
 For Gitpod or Codespaces, also add:
+
 ```bash
 echo 'export PATH="$HOME/.nexus/bin:$PATH"' >> ~/.profile
 source ~/.profile
 ```
+
 If not installed at all:
+
 ```bash
 curl -sSL https://cli.nexus.xyz/ | NONINTERACTIVE=1 sh
 ```
