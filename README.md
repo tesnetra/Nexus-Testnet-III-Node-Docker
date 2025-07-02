@@ -28,19 +28,19 @@ docker build -t nexus-dev .
 ```bash
 docker run -it nexus-dev
 ```
-You will enter the Ubuntu shell with Nexus CLI installed.
+> You will enter the Ubuntu shell with Nexus CLI installed.
 
 ### 3. Verify Nexus CLI
 ```bash
 nexus-network --help
 ```
-If a list of commands appears, Nexus CLI is ready!
+> If a list of commands appears, Nexus CLI is ready!
 
 ### 4. Start the Node
 ```bash
 nexus-network start --node-id <YOUR_NODE_ID>
 ```
-Replace <YOUR_NODE_ID> with your node ID from https://app.nexus.xyz/nodes.
+> Replace <YOUR_NODE_ID> with your node ID from https://app.nexus.xyz/nodes.
 
 ## 🛠 Troubleshooting (CLI not found?)
 
@@ -50,20 +50,17 @@ If `nexus-network: command not found` appears:
 ```bash
 ls ~/.nexus/bin/
 ```
-
 or
-
 ```bash
 ls /root/.nexus/bin/
 ```
 
 If `nexus-network` is found there, add to PATH:
+
 ```bash
 export PATH="/root/.nexus/bin:$PATH"
 ```
-
 Or make it permanent:
-
 ```bash
 echo 'export PATH="/root/.nexus/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
@@ -89,4 +86,4 @@ Once CLI is working, you can start your node with:
 ```bash
 nexus-network start --node-id <YOUR_NODE_ID>
 ```
-Replace <YOUR_NODE_ID> with your node ID from https://app.nexus.xyz/nodes.
+> Replace <YOUR_NODE_ID> with your node ID from https://app.nexus.xyz/nodes.
