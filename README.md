@@ -87,3 +87,16 @@ Once CLI is working, you can start your node with:
 nexus-network start --node-id <YOUR_NODE_ID>
 ```
 > Replace <YOUR_NODE_ID> with your node ID from https://app.nexus.xyz/nodes.
+
+## ☕ Support
+
+feel free to buy me a coffee and support more Web3 content like this! 🙌
+
+**EVM (ETH/USDT/BNB/etc):**  
+`0x5497A61CF69128C86B7641a79D4af9B20bffAAA3`
+
+**Solana (SOL):**  
+`4r8QKNtFYg4jM8EDedkN3BRGHv3DHyRFPim5DZhb4ULr`
+
+**Sui:**  
+`0xaca47b31f51467a8d4c14be6142cbfd21576328c24de7f0700dd164145329b54`
