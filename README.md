@@ -5,6 +5,18 @@
 
 ---
 
+## 📌 Project Status
+
+![Maintained](https://img.shields.io/badge/status-maintained-brightgreen)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange)
+![MIT License](https://img.shields.io/badge/license-MIT-blue)
+
+This project is actively maintained 💡  
+Community contributions are welcome 🤝  
+Released under the MIT License 📄
+
+---
+
 ## 🔧 Cloud IDE Compatibility
 
 This guide is tested and works perfectly in:
