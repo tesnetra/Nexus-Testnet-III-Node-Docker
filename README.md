@@ -52,7 +52,7 @@ nexus-network --help
 ```bash
 nexus-network start --node-id <YOUR_NODE_ID>
 ```
-> Replace <YOUR_NODE_ID> with your node ID from https://app.nexus.xyz/nodes.
+> Replace `<YOUR_NODE_ID>` with your node ID from https://app.nexus.xyz/nodes.
 
 ## 🛠 Troubleshooting (CLI not found?)
 
@@ -98,7 +98,7 @@ Once CLI is working, you can start your node with:
 ```bash
 nexus-network start --node-id <YOUR_NODE_ID>
 ```
-> Replace <YOUR_NODE_ID> with your node ID from https://app.nexus.xyz/nodes.
+> Replace `<YOUR_NODE_ID>` with your node ID from https://app.nexus.xyz/nodes.
 
 ---
 
