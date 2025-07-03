@@ -88,6 +88,8 @@ nexus-network start --node-id <YOUR_NODE_ID>
 ```
 > Replace <YOUR_NODE_ID> with your node ID from https://app.nexus.xyz/nodes.
 
+---
+
 ## ☕ Support
 
 feel free to buy me a coffee and support more Web3 content like this! 🙌
