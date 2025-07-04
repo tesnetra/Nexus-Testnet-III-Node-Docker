@@ -1,5 +1,9 @@
 # Nexus Testnet III Node Docker
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tesnetra/Nexus-Testnet-III-Node-Docker/main/assets/banner-nexus-docker.png" alt="Nexus Docker Banner" width="100%" />
+</p>
+
 📦 A step-by-step guide to run Nexus Testnet III Node using Docker.  
 ✅ Works on GitHub Codespaces, Gitpod, and Google Cloud Shell.
 
