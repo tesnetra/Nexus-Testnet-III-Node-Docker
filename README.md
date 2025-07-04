@@ -31,24 +31,30 @@ This guide is tested and works perfectly in:
 
 ## 🚀 Step-by-Step Install Nexus Testnet III Node
 
-### 1. Build the Docker Image
+### 1. Instalation
+```bash
+git clone https://github.com/tesnetra/Nexus-Testnet-III-Node-Docker.git
+cd Nexus-Testnet-III-Node-Docker
+```
+
+### 2. Build the Docker Image
 ```bash
 docker build -t nexus-dev .
 ```
 
-### 2. Run the Container
+### 3. Run the Container
 ```bash
 docker run -it nexus-dev
 ```
 > You will enter the Ubuntu shell with Nexus CLI installed.
 
-### 3. Verify Nexus CLI
+### 4. Verify Nexus CLI
 ```bash
 nexus-network --help
 ```
 > If a list of commands appears, Nexus CLI is ready!
 
-### 4. Start the Node
+### 5. Start the Node
 ```bash
 nexus-network start --node-id <YOUR_NODE_ID>
 ```
